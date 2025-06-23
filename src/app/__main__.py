@@ -1,7 +1,7 @@
 """Command-line interface."""
 import click
 
-from src.app.cli import run_cli
+from app.cli import run_cli
 
 
 @click.command()

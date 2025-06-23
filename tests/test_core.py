@@ -1,4 +1,4 @@
-from src.app.core import (
+from app.core import (
     add,
     subtract,
     multiply,

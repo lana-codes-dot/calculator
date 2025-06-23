@@ -1,4 +1,4 @@
-from src.app.core import (
+from app.core import (
     add,
     subtract,
     multiply,
@@ -7,6 +7,7 @@ from src.app.core import (
     remainder_from_division,
     power,
 )
+import click
 
 
 def type_definition(value: str) -> int | float:
@@ -14,7 +15,7 @@ def type_definition(value: str) -> int | float:
         return float(value)
     return int(value)
 
-
+@click.command()
 def run_cli():
     while True:
         possible_operations = ["+", "-", "/", "^", "%", "sqrt", "exit"]
