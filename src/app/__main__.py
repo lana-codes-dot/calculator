@@ -1,7 +1,7 @@
 """Command-line interface."""
 import click
 
-from py_calculator.src.app.cli import run_cli
+from src.app.cli import run_cli
 
 
 @click.command()

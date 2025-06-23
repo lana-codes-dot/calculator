@@ -1,4 +1,4 @@
-from py_calculator.src.app.core import (
+from src.app.core import (
     add,
     subtract,
     multiply,
